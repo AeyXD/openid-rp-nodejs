@@ -1,0 +1,15 @@
+.DS_Store
+node_modules
+*.log
+*.rdb
+*.iml
+*.swp
+~*
+!.gitignore
+config.json
+dump.rdb
+packed/
+uploads/
+logs/
+.idea*
+.env

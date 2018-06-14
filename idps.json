@@ -1,0 +1,31 @@
+{
+  "idps" : [
+    {
+      "name":"[Name of IDP]",
+      "issuer":"[IDP issuer]",
+      "authorization_endpoint":"[Authorization Endpoint]",
+      "token_endpoint":"[Token Endpoint]",
+      "userinfo_endpoint":"",
+      "jwks_uri":"[JWKS well-known]",
+      "client_id":"[Client ID]",
+      "client_secret":"[Client Secret]",
+      "assertion_consumer":"[RP assertion consumer]",
+      "scope":"[Multivalue of openid, profile, profile_kyc]", 
+      "alg":"[Algorithm]"
+    },
+    {
+      "name":"example",
+      "issuer":"http://example.com",
+      "authorization_endpoint":"http://example.com/proxy",
+      "token_endpoint":"http://example.com/proxy/token",
+      "userinfo_endpoint":"",
+      "jwks_uri":"http://example.com/proxy/.well-known/jwks.json",
+      "client_id":"7e4ca2fa5d074543cf6a",
+      "client_secret":"2fad960c94a967fb12027c374ead9c4026c49955",
+      "assertion_consumer":"http://rp.com/assertion_consumer",
+      "scope":"openid profile",
+      "alg":"RS256",
+      "sector": "urn:did:sector:public"
+    }
+  ]
+}
